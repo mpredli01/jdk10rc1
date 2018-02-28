@@ -1,0 +1,22 @@
+task init() {
+	println()
+	println 'Demo Application'
+	println 'First Look at Java 10'
+	println new Date()
+	println()
+	}
+
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.redlich.jdk10rc1.Application'
+
+version = '0.0.1'
+
+repositories {
+	mavenCentral()
+	}
+
+dependencies {
+	}
